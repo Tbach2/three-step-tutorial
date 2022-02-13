@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Peanut Butter Cookies</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/headfoot :: header"></div>
+<table>
+    <tr>
+        <td>&bull;  Serves: 20</td>
+        <td>&bull;  Prep Time: 10 Minutes</td>
+        <td>&bull;  Total Time: 25 Minutes</td>
+    </tr>
+</table>
+<img class="center" alt="Cookie" th:src="@{/img/pb-cookies-home.jpg}">
+<h2>Ingredients:</h2><hr>
+<p>
+    &bull; 1 cup Peter Pan® Creamy Peanut Butter (Also delicious with Peter Pan® Natural Original Almond Butter)<br><br>
+    &bull; no-Stick Cooking Spray<br><br>
+    &bull; 3/4 cup granulated sugar<br><br>
+    &bull; 1 egg
+</p>
+<div th:replace="fragments/headfoot :: footer"></div>
+</body>
+</html>

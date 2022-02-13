@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Peanut Butter Cookies</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/headfoot :: header"></div>
+<img class="center" alt="Cookie" th:src="@{/img/pb-cookies-three.jpg}">
+<h2>Step 3:</h2><hr>
+<p>
+    &bull; Bake 12 to 14 minutes or until lightly browned, rotating pans halfway through bake time. Let stand 1 minute on
+    baking sheets. Transfer to wire racks to cool completely.
+</p>
+<div th:replace="fragments/headfoot :: footer"></div>
+</body>
+</html>

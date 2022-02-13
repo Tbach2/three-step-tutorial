@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Peanut Butter Cookies</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/headfoot :: header"></div>
+<img class="center" alt="Cookie" th:src="@{/img/pb-cookies-one.jpg}">
+<h2>Step 1:</h2><hr>
+<p>
+    &bull; Preheat oven to 350°F. Spray two baking sheets with cooking spray; set aside.
+</p>
+<div th:replace="fragments/headfoot :: footer"></div>
+</body>
+</html>

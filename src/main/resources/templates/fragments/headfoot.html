@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<header th:fragment="header">
+    <nav>
+        <ul>
+            <li><a th:href="@{/}"><img th:src="@{/img/logo.jpg}" height="80" width="80"></a></li>
+            <li><a class="navLink" th:href="@{/steps/step-one}">STEP ONE</a></li>
+            <li><a class="navLink" th:href="@{/steps/step-two}">STEP TWO</a></li>
+            <li><a class="navLink" th:href="@{/steps/step-three}">STEP THREE</a></li>
+        </ul>
+    </nav>
+    <h2>How to Make Peanut Butter Cookies</h2><h3>In Three Easy Steps</h3><hr>
+</header>
+
+<footer th:fragment="footer">
+    <a th:href="@{/credits}">CREDITS</a>
+</footer>
+
+</html>

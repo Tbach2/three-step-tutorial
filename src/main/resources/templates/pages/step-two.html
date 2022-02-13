@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Peanut Butter Cookies</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/headfoot :: header"></div>
+<img class="center" alt="Cookie" th:src="@{/img/pb-cookies-two.jpg}">
+<h2>Step 2:</h2><hr>
+<p>
+    &bull; Stir together Peter Pan Creamy Peanut Butter (or Peter Pan Natural Almond Butter as another delicious option),
+    sugar, and egg in medium bowl until well blended. Drop by rounded tablespoons onto baking sheets. Using a fork,
+    press to make crisscross pattern on top of each cookie.
+</p>
+<div th:replace="fragments/headfoot :: footer"></div>
+</body>
+</html>
